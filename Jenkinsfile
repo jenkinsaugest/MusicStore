@@ -14,7 +14,7 @@ steps{
 }
  }
 stage ('dotnet test'){
- steps{
+steps{
 sh 'dotnet test./MusicStoretest/MusicStoretest.csproj'
 }
 }
